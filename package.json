@@ -1,0 +1,29 @@
+{
+  "name": "cypress_bdd",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sudhanshu Pandey",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.2",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-xpath": "^2.0.1",
+    "jsonexport": "^3.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepFefinitions": true,
+    "step_definitions": "cypress/e2e/Cypress_Testing_Assignment"
+  },
+  "dependencies": {
+    "chai": "^5.0.0",
+    "csvjson": "^5.1.0",
+    "cypress-downloadfile": "^1.2.3",
+    "fs": "^0.0.1-security",
+    "selenium-webdriver": "^4.16.0"
+  }
+}
